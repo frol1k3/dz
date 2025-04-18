@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.textName{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.divMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.textMenu{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    gap: 3px;
+    position:fixed;
+    left: 100px;
+}
+
+.divName{
+    background-color: rgb(19, 150, 244);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.imgMenu{
+    position: fixed;
+    right: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars{
+    top: 50px;
+    position: relative;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divCars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divCars1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+}
+
+.car1{
+    background-size: cover;
+    height: 500px;
+    width: 320px;
+    background-image: url(car1.jfif);
+    border-radius: 20px;
+}
+
+.car2{
+    background-size: cover;
+    height: 230px;
+    width: 430px;
+    background-image: url(car2.jfif);
+    border-radius: 20px;
+}
+
+.car3{
+    background-size: cover;
+    height: 230px;
+    width: 430px;
+    background-image: url(car3.jfif);
+    border-radius: 20px;
+}
+
+.car4{
+    background-size: cover;
+    height: 230px;
+    width: 430px;
+    background-image: url(car4.jfif);
+    border-radius: 20px;
+}
+
+.car5{
+    background-size: cover;
+    height: 230px;
+    width: 430px;
+    background-image: url(car5.jfif);
+    border-radius: 20px;
+}
